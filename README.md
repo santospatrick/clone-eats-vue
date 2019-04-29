@@ -19,7 +19,7 @@
 * ![Botão de "Fork"](docs/fork.png)
 8. Clone *o repositório que você acabou de 'forkar'* na sua máquina
 * `git clone https://github.com/your_username/clone-eats-vue`
-9. Inscreva-se no meu canal do [twitch](https://www.twitch.tv/patrickcoding), vamos desenvolver a UI juntos dia 27 das 14h as 18h (GMT-3)
+9. Inscreva-se no meu canal do [twitch](https://www.twitch.tv/patrickcoding), vamos desenvolver a UI juntos dia 4 de Maio das 14h as 18h (GMT-3)
 
 ## O que vamos desenvolver?
 * [ ] Rota para página inicial
