@@ -3,7 +3,7 @@
 
 ![Uber Eats clone with Vue!](docs/README.jpg)
 
-* [Final product demo](https://mighty-journey-53060.herokuapp.com/)
+* Final product demo (Coming soon)
 
 ## Setup
 1. Install [git](https://git-scm.com/downloads)
