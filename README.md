@@ -25,7 +25,7 @@
 * [ ] Rota para página inicial
 * [ ] Rota para produtos de cada restaurante
 * [ ] Rota para carrinho
-* [ ] Transição entre rotas (com [vue-pose](https://www.npmjs.com/package/vue-pose))
+* [ ] Transição entre rotas
 * [ ] Utilizar [Vuex](https://vuex.vuejs.org/) para controlar estados da aplicação
 
 ## Para que serve esse repositório?

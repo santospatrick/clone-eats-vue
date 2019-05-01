@@ -27,7 +27,7 @@ This repo already got the styles and images we will be using at the project! Bes
 * [ ] Route for home page
 * [ ] Route for products from each restaurant
 * [ ] Route for cart
-* [ ] Transition between routes (with [vue-pose](https://www.npmjs.com/package/vue-pose))
+* [ ] Transition between routes
 * [ ] Add [Vuex](https://vuex.vuejs.org/) for state management of the app
 
 ## Special thanks!
