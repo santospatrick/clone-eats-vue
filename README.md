@@ -28,6 +28,14 @@
 * [ ] Transição entre rotas
 * [ ] Utilizar [Vuex](https://vuex.vuejs.org/) para controlar estados da aplicação
 
+## Opções selecionadas na cli
+```
+$ yarn global add @vue/cli
+$ vue create my-project
+```
+
+![Opções selecionadas](docs/options.png)
+
 ## Para que serve esse repositório?
 Esse repositório já tem os estilos e imagens que vamos usar no projeto! Além disso, temos uma configuração de boas práticas de código a partir do ESLint!
 
