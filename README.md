@@ -59,7 +59,7 @@ router-link[class="place" :to="`/${id}`"]>div[style="{'background-image': 'url'}
 
 ### `Place.vue`
 ```
-div>(.place-header[style="{'background-image': 'url'}"]>.container>.place-title)+.container>OptionList
+div>(.place-header[style="{'background-image': 'url'}"]>.container>.place-title)+OptionList
 ```
 
 ### `OptionList.vue`
