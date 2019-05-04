@@ -31,6 +31,44 @@
 ## Para que serve esse repositório?
 Esse repositório já tem os estilos e imagens que vamos usar no projeto! Além disso, temos uma configuração de boas práticas de código a partir do ESLint!
 
+## Fórmulas Emmet
+Se você não sabe o que é o Emmet, ignore essa parte da documentação!
+
+### `Header.vue`
+```
+.header>.container>(router-link[to="/"]>img[src="/assets/logo.svg" alt="Clone Eats logo"])+.header-right>(.header-user>img[src="/assets/user.svg" alt="Not logged user icon"])+(router-link[class="header-cart" to="/cart"]>img[src="/assets/cart.svg" alt="Cart icon"])+span
+```
+
+### `Home.vue`
+```
+main.container>(.search>img[src="/assets/search.svg" alt="Search Icon"]+input[type="text" placeholder="Pesquisar restaurante"])+PlaceList
+```
+
+### `PlaceItem.vue`
+```
+router-link[class="place" :to="`/${id}`"]>div[style="{'background-image': 'url'}"]+h3+h4
+```
+
+### `Place.vue`
+```
+div>(.place-header[style="{'background-image': 'url'}"]>.container>.place-title)+.container>OptionList
+```
+
+### `OptionList.vue`
+```
+.container>(.options>OptionItem)+.payment>router-link[class="payment-button" to="/cart"]{Pagamento}
+```
+
+### `OptionItem.vue`
+```
+div[@click="handleAddToCart" class="option"]>(.option-text>.option-title+.option-price)+.option-image[:style="{'background-image': 'url'}"]
+```
+
+### `Cart.vue`
+```
+.container>h1.cart-title{Pagar}+.cart-container>(ul.cart-list>li.cart-item>(.cart-text>.cart-place+.cart-order)+.cart-price)+.payment>button.payment-button{Finalizar}
+```
+
 ## Muito obrigado!
 * [Flaticon](https://www.flaticon.com/)
 * [Dropbox](https://dropbox.com)
